@@ -33,7 +33,7 @@ function CriarUsuario(){
 
     return(
         <div className="form1">
-             <h3>Criar Conta</h3>
+             <h3>Criar-Conta</h3>
         <form className="form2" onSubmit={HandleSubmit}>
            
           <input type="text" name="nome" id="idname" placeholder='Nome' onChange={handleChange} required/><br/><p></p>
